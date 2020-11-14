@@ -1,0 +1,164 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+
+a{
+
+    text-decoration: none;
+    color: rgb(41, 167, 32);
+}
+
+
+
+section{
+
+    padding: 10rem 0;
+    background-color: #fff;
+
+}
+
+
+.heading{
+
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    margin-bottom: 5rem;
+    text-align: center;
+    color:rgb(3, 43, 53);
+    position: relative;
+}
+
+.category{
+
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color:rgb(3, 43, 53);
+    position: relative;
+}
+
+.heading::after{
+
+    content: "";
+    width: 20rem;
+    height: .8rem;
+    background-color: rgb(108, 194, 216);
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
+}
+
+
+.card_wrapper,.card_wrapper_organizations{
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+
+
+}
+
+.card{
+    width: 32rem;
+    background-color: #e5eafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    box-shadow: 0.5rem .5rem 3rem rgb(0,0,0,0.2);
+}
+
+
+.card .card_img{
+
+    width: 100%;
+    height: 26rem;
+    object-fit: cover;
+
+}
+
+
+.card h1{
+
+    font-size: 2rem;
+    color: rgb(19, 55, 214);
+    margin: 2rem 0;
+}
+
+
+.reason{
+    color:rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: 900;
+    font-style: italic;
+
+}
+
+.story{
+
+    font-size: 1.8rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+
+.story .btn{
+
+    padding: 1rem 2.5rem;
+    background-color: blueviolet;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    color: #eee;
+    font-size: 1.4rem;
+}
+
+
+
+@media screen and (min-width: 700px){
+
+    .card_wrapper, .card_wrapper_organizations{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .card{
+        margin: 2rem;
+
+    }
+
+    
+}
+
+
+.buffer{
+
+    margin: 25rem;
+}
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "reliefapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheHackEyes/ReliefApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheHackEyes/ReliefApp/issues"
+  },
+  "homepage": "https://github.com/TheHackEyes/ReliefApp#readme",
+  "dependencies": {
+    "@google-cloud/translate": "^6.0.3",
+    "dotenv": "^8.2.0"
+  }
+}

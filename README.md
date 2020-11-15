@@ -1,3 +1,3 @@
 # ReliefApp
 
-# This is the first commit
+# To see our projects, leave the main branch and go to the feature-loginPage branch

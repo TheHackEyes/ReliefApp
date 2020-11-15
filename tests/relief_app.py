@@ -33,3 +33,5 @@ def transfer(amount: int, receiver: str):
 
     # add tokens to the receiver's balance
     S[receiver] += amount
+
+    

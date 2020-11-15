@@ -7,3 +7,4 @@ function donate(){
 	alert("You have donated: "+TAU+" tau");
 
 }
+

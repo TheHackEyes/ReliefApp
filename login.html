@@ -1,3 +1,4 @@
+<!--Hey this works-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,15 +34,15 @@
         </form>
     </div>
 
-     <div class="pt-4">
-        <button onclick="window.location.href='http://127.0.0.1:5500/mainPage/mainPage.html';" class="btn btn-outline-primary">Sign In</button>
-    </div>
+    <form action="../mainPage.html">
+        <input type="submit" class="btn" value="SIGN IN" >
+    </form>
 
-    <div class="sign-up pt-3">
-        <p>Don't have an account? 
-            <a href="signup.html">Sign Up</a>
-        </p>
-    </div>
+
+
+    <form action="signup.html">
+        <input type="submit" class="btn" value="SIGN UP" >
+    </form>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

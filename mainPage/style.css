@@ -43,22 +43,22 @@ section{
 .category{
 
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: 3px;
     margin-right: -3px;
     margin-top: 10rem;
     margin-bottom: 2rem;
     text-align: center;
-    color:rgb(3, 43, 53);
+    color:#32be8f;
     position: relative;
 }
 
 .heading::after{
 
     content: "";
-    width: 20rem;
+    width: 25rem;
     height: .8rem;
-    background-color: rgb(108, 194, 216);
+    background-color:#32be8f;
     position: absolute;
     bottom: -2rem;
     left: 50%;
@@ -101,13 +101,13 @@ section{
 .card h1{
 
     font-size: 2rem;
-    color: rgb(19, 55, 214);
+    color: #32be8f;
     margin: 2rem 0;
 }
 
 
 .reason{
-    color:rgb(0, 0, 0);
+    color:#000000;
     font-size: 2rem;
     font-weight: 900;
     font-style: italic;
@@ -162,3 +162,30 @@ section{
 }
 
 
+
+
+
+
+
+
+
+.btn{
+	display: block;
+	width: 150px;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-size: 200%;
+	font-size: 2rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+}
+.btn:hover{
+	background-position: right;
+}

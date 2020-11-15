@@ -1,15 +1,17 @@
 # ...
-#tests/test_contract.py
+# tests/test_contract.py
 import unittest
 
 from contracting.client import ContractingClient
+
 client = ContractingClient()
 
 with open('../relief_app.py') as f:
     code = f.read()
     client.submit(code, name='my_token')
 
-class MyTestCase(unittest.TestCase):
+
+class MyTestCas(unittest.TestCase):
     def test_supply(self):
         # Get contract reference
         my_token = client.get_contract('my_token')
@@ -56,6 +58,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(my_token.quick_read('S', 'me'), me_balance_before)
         # Assert token balance for 'you' has not changed
         self.assertEqual(my_token.quick_read('S', 'you'), you_balance_before)
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -3,6 +3,10 @@
 #This is our initial state (values stored and maintained on blockchain by our smart contract).
 # S = state object initiated as a HASH and any new keys in this variable default to 0.
 #Smart Contract state
+import construct as construct
+import export as export
+from contracting.db.orm import Hash
+from tests.unit.precompiled.compiled_token import ctx
 
 S = Hash(default_value=0)
 
